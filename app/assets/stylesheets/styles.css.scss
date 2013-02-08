@@ -1,6 +1,10 @@
 /* You could change the font */
 /* $baseFontFamily: Oxygen;
 @import url(http://fonts.googleapis.com/css?family=Oxygen); */
+$baseFontFamily: Playfair Display;
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+
+@import url(http://fonts.googleapis.com/css?family=Muli);
 
 $btnPrimaryBackground: green;
 $navbarBackgroundHighLight: white;
@@ -9,7 +13,10 @@ $navbarBackground: white;
 @import 'bootstrap';
 
 body {
+  font-family: Muli;
   padding-top: 60px;
+  background-color: #5bb88c;
+  color: #e8fefe;
 }
 
 @import 'bootstrap-responsive';
@@ -19,10 +26,19 @@ body {
   border: 0;
 }
 
+.hero-unit h1 {
+  font-family: Playfair Display;
+}
+
+.hero-unit {
+  background-color: #449b70;
+}
+
+
 .footer {
   margin-top: 50px;
   color: $grayLight;
   a {
-    color: $gray;
+    color: $grayLight;
   }
 }
